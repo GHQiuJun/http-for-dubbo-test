@@ -30,7 +30,7 @@ curl --location --request POST 'http://localhost:3000/dubbo-test' \
 ```
 - Multi param
 ```
-curl --location --request GET 'http://localhost:3000/dubbo-test' \
+curl --location --request POST 'http://localhost:3000/dubbo-test' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "host": "192.168.26.243",
@@ -42,7 +42,7 @@ curl --location --request GET 'http://localhost:3000/dubbo-test' \
 ```
 - Multi param
 ```
-curl --location --request GET 'http://localhost:3000/dubbo-test' \
+curl --location --request POST 'http://localhost:3000/dubbo-test' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "host": "192.168.26.243",
