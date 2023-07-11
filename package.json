@@ -1,0 +1,18 @@
+{
+  "name": "http-for-dubbo-test",
+  "version": "1.0.0",
+  "description": "use http test dubbo api",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "process": "^0.11.10",
+    "telnet-client": "^2.0.8"
+  }
+}
